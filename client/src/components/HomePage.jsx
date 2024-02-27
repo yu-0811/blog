@@ -1,5 +1,6 @@
 import React from 'react'
 import iconImage from "../Images/Icon.jpg";
+import HomeBlog from './HomeBlog';
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
               <h3 class="section-subheading text-muted mb-5">
                 最新の記事等
               </h3>
+              <HomeBlog />
             </div>
           </div>
         </section>
