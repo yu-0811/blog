@@ -14,21 +14,25 @@
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   background: black;
   color: white;
-  height: 90px;
-  position: fixed;
-  z-index: 10;
+  height: 80px;
+  /* position: fixed;
+  z-index: 10; */
 }
 
 header .logo h3 {
-  margin: 0;
+  margin-left: 30px;
   padding: 0;
   color: white;
 }
+
+/* .App-header {
+  padding-bottom: 80px;
+} */
 
 nav ul {
   margin: 0;
@@ -54,7 +58,7 @@ nav ul li a:hover {
 
 .container {
   height: 100vh;
-  padding: 120px;
+  padding: 30px;
 }
 
 .container h1 {
@@ -89,4 +93,83 @@ img {
 
 #skill button {
   margin-bottom: 100px;
+}
+
+.home-blog-title {
+  font-size: 35px;
+}
+
+.home-blog-date {
+  font-size: 15px;
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+
+/* Blog Top*/
+.title-link {
+  text-decoration: none;
+  color: var(--black-color);
+  transition: all 0.2s;
+}
+
+.title-link:hover {
+  text-decoration: underline;
+}
+
+.blog-top-title{
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+.blog-top-date{
+  font-size: 15px;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.blog-top{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+/* Blog Detail */
+.detail-Title{
+  font-size: 35px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.detail-date{
+  font-size: 15px;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.detail-content{
+  font-size: 20px;
+  padding: 20px;
+}
+
+.back-bottun {
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 5px;
+  width: 80px;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  font-size: 15px;
+}
+
+.back-bottun .back-link {
+  text-decoration: none; 
+  color: white;
+  transition: all 0.2s;
+}
+
+.back-bottun .back-link:hover {
+  border-bottom: 1px solid #ffffff; 
 }

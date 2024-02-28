@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <header>
         <div className='logo'>
-          <h3>Header</h3>
+          <h3 className='header-app-name'>Header</h3>
         </div>
 
         <nav>

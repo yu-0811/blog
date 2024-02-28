@@ -12,7 +12,9 @@ function App() {
     <Router>
 
       <div className="App">
-        {/* <Header /> */}
+        <div className="App-header">
+          <Header />
+         </div> 
 
         <Routes>
           <Route path='/' element={<HomePage />} />

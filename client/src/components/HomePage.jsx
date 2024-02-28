@@ -1,6 +1,6 @@
 import React from 'react'
 import iconImage from "../Images/Icon.jpg";
-import HomeBlog from './HomeBlog';
+import HomeBlog  from './HomeBlog';
 
 const HomePage = () => {
   return (
@@ -11,12 +11,12 @@ const HomePage = () => {
         <img src={iconImage} className="iconImage" />
 
         <p>
-          Yuuです。大学1年生。競技プログラミングをしています。
+          Yuuです。文系大学1年生。競技プログラミングをしています。
         </p>
 
         <section class="page-section" id="services">
           <div className="service">
-            <div class="text-center">
+            <div className="blog-section">
               <h2 class="section-heading text-uppercase">BLOG</h2>
               <h3 class="section-subheading text-muted mb-5">
                 最新の記事等

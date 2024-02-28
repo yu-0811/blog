@@ -33,9 +33,14 @@ const BlogTop = () => {
                 loading ?
                 <h1>loading...</h1>
                 :
-                <div>
-                {blog.map( d => <BlogContent {...d}  /> )}
-                </div>
+                <>
+                    <div>
+                        <h1 className='blog-top'>記事一覧</h1>
+                    </div>
+                    <div>
+                    {blog.map( d => <BlogContent {...d}  /> )}
+                    </div>
+                </>
             }
             {/* <CategoryList /> */}
         </div>
