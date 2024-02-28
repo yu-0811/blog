@@ -34,11 +34,15 @@ const BlogTop = () => {
                 <h1>loading...</h1>
                 :
                 <>
-                    <div>
-                        <h1 className='blog-top'>記事一覧</h1>
-                    </div>
-                    <div>
-                    {blog.map( d => <BlogContent {...d}  /> )}
+                    <div className='blog-all'>
+                        <div>
+                            <h1 className='blog-top'>記事一覧</h1>
+                        </div>
+                        <div className='blog-section'>
+                            <div>
+                            {blog.map( d => <BlogContent {...d}  /> )}
+                            </div>
+                        </div>
                     </div>
                 </>
             }

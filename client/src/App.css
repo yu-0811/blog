@@ -140,6 +140,8 @@ nav ul li a:hover {
 }
 
 .blog-top{
+  display: flex;
+  justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 15px;
@@ -159,6 +161,12 @@ nav ul li a:hover {
 
 .more-blog-link:hover{
   text-decoration: underline;
+}
+
+.blog-section{
+  display: flex;
+  justify-content: left;
+  margin-left: 30%;
 }
 
 /* Blog Detail */
