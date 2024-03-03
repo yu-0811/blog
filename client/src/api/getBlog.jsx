@@ -9,7 +9,7 @@ const toJson = async (res) => {
 
 // 日報一覧を取得する関数
 export const getBlog = async () => {
-  const res = await fetch('http://localhost:8000/blog/', {
+  const res = await fetch('https://yukunk.pythonanywhere.com/blog/', {
     method: 'GET',
   });
   return await toJson(res);
@@ -17,7 +17,7 @@ export const getBlog = async () => {
 
 // 1日の詳細を取得する関数
 export const getBlogDetail = async (id) => {
-  const res = await fetch(`http://localhost:8000/blog/${id}`, {
+  const res = await fetch(`https://yukunk.pythonanywhere.com/blog/${id}`, {
     method: 'GET',
   });
   return await toJson(res);
@@ -25,7 +25,7 @@ export const getBlogDetail = async (id) => {
 
 // カテゴリ別一覧を取得する関数
 export const getCategory = async (cat) => {
-  const res = await fetch(`http://localhost:8000/blog/${cat}`, {
+  const res = await fetch(`https://yukunk.pythonanywhere.com/blog/${cat}`, {
     method: 'GET',
   });
   return await toJson(res);
